@@ -1,0 +1,11 @@
+{
+  "name": "lumengrid",
+  "version": "2.0.0",
+  "description": "LumenGrid – smart streetlight control dashboard (frontend simulation)",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "check": "node --check js/model.js && node --check js/scene.js && node --check js/charts.js && node --check js/app.js"
+  },
+  "license": "MIT"
+}
